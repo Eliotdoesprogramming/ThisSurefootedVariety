@@ -1,0 +1,30 @@
+.weather{
+  width:fit-content;
+  padding: 10px;
+  border: rgb(120, 250, 131);
+  border-radius: 5px;
+  border-style: solid;
+  align-items: center;
+}
+#dashboard{
+  display: flex;
+  flex-direction: column;
+}
+#userInput{
+  align-self: center;
+  align-items: center;
+}
+.weatherRow{
+  display:flex;
+}
+.day{
+  font-family: 'Fira Sans', sans-serif;
+}
+body{
+  background-color: rgb(116, 230, 211)
+}
+#weatherTitle{
+  align-self: center;
+  font-family: 'Fira Sans', sans-serif;
+  font-size:32px;
+}
