@@ -62,7 +62,7 @@ let addWeatherDiv = (item,rowNum) => {
   if(hour===0)
     timestring="12 am";
   else if(hour>12){
-    timestring=hour +" pm";
+    timestring=hour%12 +" pm";
   }
   else{
     timestring=hour+" am";
